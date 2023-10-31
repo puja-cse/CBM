@@ -1,0 +1,814 @@
+TEST LOSS : 5.99204 CONCEPT LOSS:  0.69224 TARGET LOSS:  5.29980 where c_lambda: 1.0
+------------PERFORMANCE MATRICES FOR TARGETS ----------
+TARGET ACCURACY:  0.00509
+Precisions:
+[0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.00509338 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.        ]
+Recalls:
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0.]
+F1- Score: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.01013514 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.        ]
+------CONFUSION MATRIX for TARGET -------
+[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+-------PERFORMANCE MATRICES FOR: has_bill_shape ----------
+The attributes are: 
+has_bill_shape::curved_(up_or_down)has_bill_shape::daggerhas_bill_shape::hookedhas_bill_shape::needlehas_bill_shape::hooked_seabirdhas_bill_shape::spatulatehas_bill_shape::all-purposehas_bill_shape::conehas_bill_shape::specialized
+Concept accuracy: 0.042444821731748725
+Precision: [0.04260758 0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+Recalls:
+[1. 0. 0. 0. 0. 0. 0. 0. 0.]
+F1- Score:
+[0.08173273 0.         0.         0.         0.         0.
+ 0.         0.         0.        ]------CONFUSION MATRIX for has_bill_shape -------
+[[100   0   0   0   0   0   0   0   0]
+ [323   0   0   0   1   2   0   0   0]
+ [ 39   0   0   0   0   0   0   0   0]
+ [ 60   0   0   0   0   0   0   0   0]
+ [156   0   0   0   0   0   0   0   0]
+ [ 86   0   0   0   0   0   0   0   0]
+ [898   0   0   0   1   0   0   0   0]
+ [633   0   0   0   1   4   0   0   0]
+ [ 52   0   0   0   0   0   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_wing_color ----------
+The attributes are: 
+has_wing_color::bluehas_wing_color::brownhas_wing_color::iridescenthas_wing_color::purplehas_wing_color::rufoushas_wing_color::greyhas_wing_color::yellowhas_wing_color::olivehas_wing_color::greenhas_wing_color::pinkhas_wing_color::orangehas_wing_color::blackhas_wing_color::whitehas_wing_color::redhas_wing_color::buff
+Concept accuracy: 0.11926994906621392
+Precision: [0.11967284 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.09375
+ 0.         0.         0.        ]
+Recalls:
+[0.99285714 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.00634249
+ 0.         0.         0.        ]
+F1- Score:
+[0.21359969 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.01188119
+ 0.         0.         0.        ]------CONFUSION MATRIX for has_wing_color -------
+[[278   0   0   0   0   0   0   0   0   0   0   2   0   0   0]
+ [629   0   0   0   0   0   0   0   0   0   0  13   0   0   0]
+ [ 30   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  5   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 19   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [576   0   0   0   0   0   0   0   0   0   0   6   0   0   0]
+ [104   0   0   0   0   0   0   0   0   0   0   6   0   0   0]
+ [ 56   0   0   0   0   0   0   0   0   0   0   1   0   0   0]
+ [ 17   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  9   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 25   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [469   1   0   0   0   0   0   0   0   0   0   3   0   0   0]
+ [ 54   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 11   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 41   0   0   0   0   0   0   0   0   0   0   1   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_upperparts_color ----------
+The attributes are: 
+has_upperparts_color::bluehas_upperparts_color::brownhas_upperparts_color::iridescenthas_upperparts_color::purplehas_upperparts_color::rufoushas_upperparts_color::greyhas_upperparts_color::yellowhas_upperparts_color::olivehas_upperparts_color::greenhas_upperparts_color::pinkhas_upperparts_color::orangehas_upperparts_color::blackhas_upperparts_color::whitehas_upperparts_color::redhas_upperparts_color::buff
+Concept accuracy: 0.183786078098472
+Precision: [0.18461538 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         1.
+ 0.         0.         0.        ]
+Recalls:
+[0.99310345 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.00238095
+ 0.         0.         0.        ]
+F1- Score:
+[0.31135135 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.00475059
+ 0.         0.         0.        ]------CONFUSION MATRIX for has_upperparts_color -------
+[[432   0   0   0   0   0   0   0   3   0   0   0   0   0   0]
+ [567   0   0   0   0   0   0   0   4   0   0   0   0   0   0]
+ [ 36   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 10   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 18   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [546   0   0   0   0   0   0   0   3   0   0   0   0   0   0]
+ [ 92   0   0   0   0   0   0   0   3   0   0   0   0   0   0]
+ [ 52   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 16   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  5   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 33   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [419   0   0   0   0   0   0   0   0   0   0   1   0   0   0]
+ [ 55   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 12   0   0   0   0   0   0   0   1   0   0   0   0   0   0]
+ [ 47   0   0   0   0   0   0   0   1   0   0   0   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_underparts_color ----------
+The attributes are: 
+has_underparts_color::bluehas_underparts_color::brownhas_underparts_color::iridescenthas_underparts_color::purplehas_underparts_color::rufoushas_underparts_color::greyhas_underparts_color::yellowhas_underparts_color::olivehas_underparts_color::greenhas_underparts_color::pinkhas_underparts_color::orangehas_underparts_color::blackhas_underparts_color::whitehas_underparts_color::redhas_underparts_color::buff
+Concept accuracy: 0.12181663837011884
+Precision: [0.12180579 0.33333333 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+Recalls:
+[1.         0.00452489 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+F1- Score:
+[0.21716021 0.00892857 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]------CONFUSION MATRIX for has_underparts_color -------
+[[286   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [218   1   0   0   0   0   0   0   0   2   0   0   0   0   0]
+ [ 24   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  5   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 31   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [391   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [304   0   0   0   0   0   0   0   0   1   0   0   0   0   0]
+ [ 31   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 19   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  8   1   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 60   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [271   0   0   0   0   0   0   1   0   0   0   0   0   0   0]
+ [519   1   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 47   0   0   0   0   0   0   0   0   1   0   0   0   0   0]
+ [134   0   0   0   0   0   0   0   0   0   0   0   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_breast_pattern ----------
+The attributes are: 
+has_breast_pattern::solidhas_breast_pattern::spottedhas_breast_pattern::stripedhas_breast_pattern::multi-colored
+Concept accuracy: 0.633276740237691
+Precision: [0.63327674 0.         0.         0.        ]
+Recalls:
+[1. 0. 0. 0.]
+F1- Score:
+[0.77546778 0.         0.         0.        ]------CONFUSION MATRIX for has_breast_pattern -------
+[[1492    0    0    0]
+ [ 142    0    0    0]
+ [ 261    0    0    0]
+ [ 461    0    0    0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_back_color ----------
+The attributes are: 
+has_back_color::bluehas_back_color::brownhas_back_color::iridescenthas_back_color::purplehas_back_color::rufoushas_back_color::greyhas_back_color::yellowhas_back_color::olivehas_back_color::greenhas_back_color::pinkhas_back_color::orangehas_back_color::blackhas_back_color::whitehas_back_color::redhas_back_color::buff
+Concept accuracy: 0.2597623089983022
+Precision: [0.26085088 0.         0.         0.         0.         0.
+ 0.17241379 0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+Recalls:
+[0.98859935 0.         0.         0.         0.         0.
+ 0.05376344 0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+F1- Score:
+[0.41278477 0.         0.         0.         0.         0.
+ 0.08196721 0.         0.         0.         0.         0.
+ 0.         0.         0.        ]------CONFUSION MATRIX for has_back_color -------
+[[607   0   0   0   0   0   7   0   0   0   0   0   0   0   0]
+ [445   0   0   0   0   0   8   0   0   0   0   0   0   0   0]
+ [ 25   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  5   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 11   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [482   0   0   0   0   0   6   0   0   0   0   0   0   0   0]
+ [ 88   0   0   0   0   0   5   0   0   0   0   0   0   0   0]
+ [ 47   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 14   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  4   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 20   0   0   0   0   0   1   0   0   0   0   0   0   0   0]
+ [403   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 78   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 23   0   0   0   0   0   1   0   0   0   0   0   0   0   0]
+ [ 75   0   0   0   0   0   1   0   0   0   0   0   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_tail_shape ----------
+The attributes are: 
+has_tail_shape::forked_tailhas_tail_shape::rounded_tailhas_tail_shape::notched_tailhas_tail_shape::fan-shaped_tailhas_tail_shape::pointed_tailhas_tail_shape::squared_tail
+Concept accuracy: 0.25127334465195245
+Precision: [0.25138004 0.         0.         0.         0.         0.        ]
+Recalls:
+[1. 0. 0. 0. 0. 0.]
+F1- Score:
+[0.40176451 0.         0.         0.         0.         0.        ]------CONFUSION MATRIX for has_tail_shape -------
+[[592   0   0   0   0   0]
+ [246   0   0   0   0   1]
+ [726   0   0   0   0   0]
+ [177   0   0   0   0   0]
+ [409   0   0   0   0   0]
+ [205   0   0   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_upper_tail_color ----------
+The attributes are: 
+has_upper_tail_color::bluehas_upper_tail_color::brownhas_upper_tail_color::iridescenthas_upper_tail_color::purplehas_upper_tail_color::rufoushas_upper_tail_color::greyhas_upper_tail_color::yellowhas_upper_tail_color::olivehas_upper_tail_color::greenhas_upper_tail_color::pinkhas_upper_tail_color::orangehas_upper_tail_color::blackhas_upper_tail_color::whitehas_upper_tail_color::redhas_upper_tail_color::buff
+Concept accuracy: 0.35865874363327677
+Precision: [0.36111111 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+Recalls:
+[0.99528857 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+F1- Score:
+[0.52994669 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]------CONFUSION MATRIX for has_upper_tail_color -------
+[[845   0   0   0   0   0   0   0   0   0   2   2   0   0   0]
+ [355   0   0   0   0   0   2   0   0   0   2   0   0   0   0]
+ [ 17   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  5   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 16   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [381   0   0   0   0   0   1   0   0   0   1   0   0   0   0]
+ [ 59   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 44   0   0   0   0   0   1   0   0   0   0   0   0   0   0]
+ [ 11   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  8   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 26   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [397   0   0   0   0   0   3   0   0   0   0   0   0   0   0]
+ [ 86   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 24   0   0   0   0   0   0   0   0   0   1   0   0   0   0]
+ [ 66   0   0   0   0   0   0   0   0   0   1   0   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_head_pattern ----------
+The attributes are: 
+has_head_pattern::spottedhas_head_pattern::malarhas_head_pattern::crestedhas_head_pattern::maskedhas_head_pattern::unique_patternhas_head_pattern::eyebrowhas_head_pattern::eyeringhas_head_pattern::plainhas_head_pattern::eyelinehas_head_pattern::stripedhas_head_pattern::capped
+Concept accuracy: 0.0700339558573854
+Precision: [0.0696879  0.         0.11764706 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]
+Recalls:
+[1.         0.         0.02777778 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]
+F1- Score:
+[0.13029576 0.         0.04494382 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]------CONFUSION MATRIX for has_head_pattern -------
+[[163   0   0   0   0   0   0   0   0   0   0]
+ [221   0   3   0   0   0   0   0   0   0   0]
+ [ 70   0   2   0   0   0   0   0   0   0   0]
+ [ 77   0   3   0   0   0   0   0   0   0   0]
+ [ 73   0   0   0   0   0   0   0   0   0   0]
+ [250   0   1   0   0   0   0   0   0   0   0]
+ [332   0   0   0   0   0   0   0   0   0   0]
+ [583   0   2   0   0   0   0   0   0   0   0]
+ [227   0   4   0   0   0   0   0   0   0   0]
+ [131   0   1   0   0   0   0   0   0   0   0]
+ [212   0   1   0   0   0   0   0   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_breast_color ----------
+The attributes are: 
+has_breast_color::bluehas_breast_color::brownhas_breast_color::iridescenthas_breast_color::purplehas_breast_color::rufoushas_breast_color::greyhas_breast_color::yellowhas_breast_color::olivehas_breast_color::greenhas_breast_color::pinkhas_breast_color::orangehas_breast_color::blackhas_breast_color::whitehas_breast_color::redhas_breast_color::buff
+Concept accuracy: 0.10568760611205433
+Precision: [0.10571185 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.5        0.        ]
+Recalls:
+[1.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.01612903 0.        ]
+F1- Score:
+[0.19121049 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.03125    0.        ]------CONFUSION MATRIX for has_breast_color -------
+[[248   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [261   0   0   0   0   0   0   0   0   0   0   2   0   0   0]
+ [ 22   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  2   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 30   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [392   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [269   0   0   0   0   0   0   0   0   0   0   1   1   0   0]
+ [ 28   0   0   0   0   0   0   0   0   0   0   0   0   1   0]
+ [ 13   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  5   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 67   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [313   0   0   0   1   0   0   0   0   0   0   0   0   0   0]
+ [489   0   0   0   2   0   0   0   0   0   0   0   0   0   0]
+ [ 60   0   0   0   0   0   0   0   0   0   0   0   1   1   0]
+ [147   0   0   0   0   0   0   0   0   0   0   0   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_throat_color ----------
+The attributes are: 
+has_throat_color::bluehas_throat_color::brownhas_throat_color::iridescenthas_throat_color::purplehas_throat_color::rufoushas_throat_color::greyhas_throat_color::yellowhas_throat_color::olivehas_throat_color::greenhas_throat_color::pinkhas_throat_color::orangehas_throat_color::blackhas_throat_color::whitehas_throat_color::redhas_throat_color::buff
+Concept accuracy: 0.07130730050933787
+Precision: [0.07201029 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+Recalls:
+[0.98823529 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+F1- Score:
+[0.13423891 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]------CONFUSION MATRIX for has_throat_color -------
+[[168   0   0   0   0   0   0   0   0   0   0   0   0   0   2]
+ [193   0   0   0   0   0   0   0   0   0   0   0   0   0   4]
+ [ 24   0   0   0   0   0   0   0   0   0   0   0   0   0   1]
+ [  2   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 30   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [367   0   0   0   0   0   0   0   0   0   0   0   0   0   2]
+ [240   0   0   0   0   0   0   0   0   0   0   0   0   0   4]
+ [ 25   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 17   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 11   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 43   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [421   0   0   1   0   0   1   0   0   1   0   0   0   0   1]
+ [575   0   0   1   0   0   1   0   0   1   0   0   0   0   2]
+ [ 66   0   0   0   0   0   0   0   0   0   0   0   0   0   1]
+ [151   0   0   0   0   0   0   0   0   0   0   0   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_eye_color ----------
+The attributes are: 
+has_eye_color::bluehas_eye_color::brownhas_eye_color::purplehas_eye_color::rufoushas_eye_color::greyhas_eye_color::yellowhas_eye_color::olivehas_eye_color::greenhas_eye_color::pinkhas_eye_color::orangehas_eye_color::blackhas_eye_color::whitehas_eye_color::redhas_eye_color::buff
+Concept accuracy: 0.8179117147707979
+Precision: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.81791171 0.
+ 0.         0.        ]
+Recalls:
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]
+F1- Score:
+[0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.89983656 0.
+ 0.         0.        ]------CONFUSION MATRIX for has_eye_color -------
+[[   0    0    0    0    0    0    0    0    0    0  121    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0   81    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    5    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0   22    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0   34    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0   39    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    4    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    1    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0   11    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0   28    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0 1927    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0   31    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0   32    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0   20    0    0    0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_bill_length ----------
+The attributes are: 
+has_bill_length::about_the_same_as_headhas_bill_length::longer_than_headhas_bill_length::shorter_than_head
+Concept accuracy: 0.5585738539898133
+Precision: [0.         0.         0.55857385]
+Recalls:
+[0. 0. 1.]
+F1- Score:
+[0.        0.        0.7167756]------CONFUSION MATRIX for has_bill_length -------
+[[   0    0  905]
+ [   0    0  135]
+ [   0    0 1316]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_forehead_color ----------
+The attributes are: 
+has_forehead_color::bluehas_forehead_color::brownhas_forehead_color::iridescenthas_forehead_color::purplehas_forehead_color::rufoushas_forehead_color::greyhas_forehead_color::yellowhas_forehead_color::olivehas_forehead_color::greenhas_forehead_color::pinkhas_forehead_color::orangehas_forehead_color::blackhas_forehead_color::whitehas_forehead_color::redhas_forehead_color::buff
+Concept accuracy: 0.09422750424448217
+Precision: [0.09444444 0.         0.         0.         0.         0.1
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+Recalls:
+[0.99103139 0.         0.         0.         0.         0.00245098
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+F1- Score:
+[0.17245416 0.         0.         0.         0.         0.00478469
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]------CONFUSION MATRIX for has_forehead_color -------
+[[221   1   0   0   0   1   0   0   0   0   0   0   0   0   0]
+ [400   0   0   0   0   3   0   0   0   0   1   0   0   1   0]
+ [ 32   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  8   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 39   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [407   0   0   0   0   1   0   0   0   0   0   0   0   0   0]
+ [174   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 36   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 10   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  9   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 47   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [590   1   0   0   0   3   0   0   0   0   0   0   0   0   0]
+ [180   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 75   0   0   0   0   2   0   0   0   0   0   0   0   0   0]
+ [112   0   0   0   0   0   0   0   0   0   0   0   0   2   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_under_tail_color ----------
+The attributes are: 
+has_under_tail_color::bluehas_under_tail_color::brownhas_under_tail_color::iridescenthas_under_tail_color::purplehas_under_tail_color::rufoushas_under_tail_color::greyhas_under_tail_color::yellowhas_under_tail_color::olivehas_under_tail_color::greenhas_under_tail_color::pinkhas_under_tail_color::orangehas_under_tail_color::blackhas_under_tail_color::whitehas_under_tail_color::redhas_under_tail_color::buff
+Concept accuracy: 0.2882003395585739
+Precision: [0.2893055 0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.        0.
+ 0.       ]
+Recalls:
+[0.99852941 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+F1- Score:
+[0.44862901 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]------CONFUSION MATRIX for has_under_tail_color -------
+[[679   0   0   0   0   0   0   0   0   0   0   1   0   0   0]
+ [367   0   0   0   0   0   0   0   0   0   0   1   0   0   1]
+ [ 20   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  4   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 18   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [430   0   0   0   0   0   0   0   0   0   0   1   0   0   0]
+ [ 81   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 46   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 11   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  9   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 24   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [457   4   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [115   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 15   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 71   1   0   0   0   0   0   0   0   0   0   0   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_nape_color ----------
+The attributes are: 
+has_nape_color::bluehas_nape_color::brownhas_nape_color::iridescenthas_nape_color::purplehas_nape_color::rufoushas_nape_color::greyhas_nape_color::yellowhas_nape_color::olivehas_nape_color::greenhas_nape_color::pinkhas_nape_color::orangehas_nape_color::blackhas_nape_color::whitehas_nape_color::redhas_nape_color::buff
+Concept accuracy: 0.12139219015280135
+Precision: [0.12180579 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+Recalls:
+[0.99651568 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+F1- Score:
+[0.2170778 0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.        0.
+ 0.       ]------CONFUSION MATRIX for has_nape_color -------
+[[286   0   1   0   0   0   0   0   0   0   0   0   0   0   0]
+ [394   0   3   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 30   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  6   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 38   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [517   0   1   0   0   0   0   0   0   0   0   0   0   0   0]
+ [135   0   1   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 48   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 13   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  6   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 41   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [446   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [226   0   1   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 45   0   1   0   0   0   0   0   0   0   0   0   0   0   0]
+ [117   0   0   0   0   0   0   0   0   0   0   0   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_belly_color ----------
+The attributes are: 
+has_belly_color::bluehas_belly_color::brownhas_belly_color::iridescenthas_belly_color::purplehas_belly_color::rufoushas_belly_color::greyhas_belly_color::yellowhas_belly_color::olivehas_belly_color::greenhas_belly_color::pinkhas_belly_color::orangehas_belly_color::blackhas_belly_color::whitehas_belly_color::redhas_belly_color::buff
+Concept accuracy: 0.1298811544991511
+Precision: [0.13107005 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.03448276]
+Recalls:
+[0.99348534 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.00613497]
+F1- Score:
+[0.23158694 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.01041667]------CONFUSION MATRIX for has_belly_color -------
+[[305   0   0   0   0   0   0   0   0   0   0   0   0   0   2]
+ [188   0   0   0   0   0   0   0   0   0   0   0   0   0   7]
+ [ 22   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  3   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 27   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [382   0   0   0   0   0   0   0   0   0   0   0   0   0   2]
+ [294   0   0   0   0   0   0   0   0   0   0   0   0   0   9]
+ [ 32   0   0   0   0   0   0   0   0   0   0   0   0   0   2]
+ [ 18   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  6   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 51   0   0   0   0   0   0   0   0   0   0   0   0   0   2]
+ [235   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [555   0   0   0   0   0   0   0   0   0   0   0   0   0   2]
+ [ 47   0   0   0   0   0   0   0   0   0   0   0   0   0   2]
+ [162   0   0   0   0   0   0   0   0   0   0   0   0   0   1]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_wing_shape ----------
+The attributes are: 
+has_wing_shape::rounded-wingshas_wing_shape::pointed-wingshas_wing_shape::broad-wingshas_wing_shape::tapered-wingshas_wing_shape::long-wings
+Concept accuracy: 0.6353989813242784
+Precision: [0.63659574 0.16666667 0.         0.         0.        ]
+Recalls:
+[0.99799867 0.00227273 0.         0.         0.        ]
+F1- Score:
+[0.77734476 0.0044843  0.         0.         0.        ]------CONFUSION MATRIX for has_wing_shape -------
+[[1496    3    0    0    0]
+ [ 439    1    0    0    0]
+ [ 126    0    0    0    0]
+ [ 168    2    0    0    0]
+ [ 121    0    0    0    0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_size ----------
+The attributes are: 
+has_size::large_(16_-_32_in)has_size::small_(5_-_9_in)has_size::very_large_(32_-_72_in)has_size::medium_(9_-_16_in)has_size::very_small_(3_-_5_in)
+Concept accuracy: 0.5182512733446519
+Precision: [0.         0.51825127 0.         0.         0.        ]
+Recalls:
+[0. 1. 0. 0. 0.]
+F1- Score:
+[0.       0.682695 0.       0.       0.      ]------CONFUSION MATRIX for has_size -------
+[[   0   86    0    0    0]
+ [   0 1221    0    0    0]
+ [   0   38    0    0    0]
+ [   0  454    0    0    0]
+ [   0  557    0    0    0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_shape ----------
+The attributes are: 
+has_shape::upright-perching_water-likehas_shape::chicken-like-marshhas_shape::long-legged-likehas_shape::duck-likehas_shape::owl-likehas_shape::gull-likehas_shape::hummingbird-likehas_shape::pigeon-likehas_shape::tree-clinging-likehas_shape::hawk-likehas_shape::sandpiper-likehas_shape::upland-ground-likehas_shape::swallow-likehas_shape::perching-like
+Concept accuracy: 0.48514431239388794
+Precision: [0.04945055 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.52161914]
+Recalls:
+[0.15517241 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.95857988]
+F1- Score:
+[0.075      0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.67560322]------CONFUSION MATRIX for has_shape -------
+[[   9    0    0    0    0    0    0    0    0    0    0    0    0   49]
+ [   4    0    0    0    0    0    0    0    0    0    0    0    0   37]
+ [   6    0    0    0    0    0    0    0    0    0    0    0    0   16]
+ [  23    0    0    0    0    0    0    0    0    0    0    0    0  116]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0   13]
+ [  30    0    0    0    0    0    0    0    0    0    0    0    0  135]
+ [   6    0    0    0    0    0    0    0    0    0    0    0    0  103]
+ [   9    0    0    0    0    0    0    0    0    0    0    0    0  126]
+ [   5    0    0    0    0    0    0    0    0    0    0    0    0  154]
+ [   7    0    0    0    0    0    0    0    0    0    0    0    0   56]
+ [  12    0    0    0    0    0    0    0    0    0    0    0    0  110]
+ [   4    0    0    0    0    0    0    0    0    0    0    0    0   60]
+ [  18    0    0    0    0    0    0    0    0    0    0    0    0   65]
+ [  49    0    0    0    0    0    0    0    0    0    0    0    0 1134]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_back_pattern ----------
+The attributes are: 
+has_back_pattern::solidhas_back_pattern::spottedhas_back_pattern::stripedhas_back_pattern::multi-colored
+Concept accuracy: 0.5759762308998302
+Precision: [0.57597623 0.         0.         0.        ]
+Recalls:
+[1. 0. 0. 0.]
+F1- Score:
+[0.73094533 0.         0.         0.        ]------CONFUSION MATRIX for has_back_pattern -------
+[[1357    0    0    0]
+ [ 161    0    0    0]
+ [ 382    0    0    0]
+ [ 456    0    0    0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_tail_pattern ----------
+The attributes are: 
+has_tail_pattern::solidhas_tail_pattern::spottedhas_tail_pattern::stripedhas_tail_pattern::multi-colored
+Concept accuracy: 0.5946519524617997
+Precision: [0.59465195 0.         0.         0.        ]
+Recalls:
+[1. 0. 0. 0.]
+F1- Score:
+[0.74580783 0.         0.         0.        ]------CONFUSION MATRIX for has_tail_pattern -------
+[[1401    0    0    0]
+ [ 102    0    0    0]
+ [ 308    0    0    0]
+ [ 545    0    0    0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_belly_pattern ----------
+The attributes are: 
+has_belly_pattern::solidhas_belly_pattern::spottedhas_belly_pattern::stripedhas_belly_pattern::multi-colored
+Concept accuracy: 0.6910016977928692
+Precision: [0.69197952 0.         0.5        0.        ]
+Recalls:
+[0.99753998 0.         0.02727273 0.        ]
+F1- Score:
+[0.81712846 0.         0.05172414 0.        ]------CONFUSION MATRIX for has_belly_pattern -------
+[[1622    0    4    0]
+ [ 141    0    0    0]
+ [ 214    0    6    0]
+ [ 367    0    2    0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_primary_color ----------
+The attributes are: 
+has_primary_color::bluehas_primary_color::brownhas_primary_color::iridescenthas_primary_color::purplehas_primary_color::rufoushas_primary_color::greyhas_primary_color::yellowhas_primary_color::olivehas_primary_color::greenhas_primary_color::pinkhas_primary_color::orangehas_primary_color::blackhas_primary_color::whitehas_primary_color::redhas_primary_color::buff
+Concept accuracy: 0.06281833616298811
+Precision: [0.06322085 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+Recalls:
+[0.99328859 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+F1- Score:
+[0.1188755 0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.        0.
+ 0.       ]------CONFUSION MATRIX for has_primary_color -------
+[[148   0   1   0   0   0   0   0   0   0   0   0   0   0   0]
+ [592   0   4   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 25   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  9   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 29   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [569   0   1   0   0   0   0   0   0   0   0   0   1   0   0]
+ [198   0   1   0   0   0   0   0   0   0   0   3   0   0   0]
+ [ 52   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 17   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 12   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 47   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [413   0   0   0   0   0   0   1   0   0   0   0   1   0   0]
+ [122   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 36   0   1   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 72   0   1   0   0   0   0   0   0   0   0   0   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_leg_color ----------
+The attributes are: 
+has_leg_color::bluehas_leg_color::brownhas_leg_color::iridescenthas_leg_color::purplehas_leg_color::rufoushas_leg_color::greyhas_leg_color::yellowhas_leg_color::olivehas_leg_color::greenhas_leg_color::pinkhas_leg_color::orangehas_leg_color::blackhas_leg_color::whitehas_leg_color::redhas_leg_color::buff
+Concept accuracy: 0.18633276740237692
+Precision: [0.18653516 0.         0.         0.         0.         0.23529412
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+Recalls:
+[0.99542334 0.         0.         0.         0.         0.00664452
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]
+F1- Score:
+[0.31419285 0.         0.         0.         0.         0.01292407
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.        ]------CONFUSION MATRIX for has_leg_color -------
+[[435   0   0   0   0   1   0   0   1   0   0   0   0   0   0]
+ [176   0   0   0   0   5   0   0   0   0   0   0   0   0   1]
+ [ 14   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 12   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 23   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [597   0   0   0   0   4   0   0   1   0   0   0   0   0   0]
+ [ 31   0   0   0   0   1   0   0   0   0   0   0   0   0   0]
+ [  3   0   0   0   0   1   0   0   0   0   0   0   0   0   0]
+ [  2   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 57   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [181   0   0   0   0   1   0   0   0   0   0   0   0   0   0]
+ [470   0   0   0   0   1   0   0   0   0   0   0   0   0   2]
+ [ 44   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 48   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [239   0   0   0   0   3   0   0   2   0   0   0   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_bill_color ----------
+The attributes are: 
+has_bill_color::bluehas_bill_color::brownhas_bill_color::iridescenthas_bill_color::purplehas_bill_color::rufoushas_bill_color::greyhas_bill_color::yellowhas_bill_color::olivehas_bill_color::greenhas_bill_color::pinkhas_bill_color::orangehas_bill_color::blackhas_bill_color::whitehas_bill_color::redhas_bill_color::buff
+Concept accuracy: 0.04753820033955857
+Precision: [0.04500643 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.5
+ 0.         0.         0.        ]
+Recalls:
+[1.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.00813008
+ 0.         0.         0.        ]
+F1- Score:
+[0.08613618 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.016
+ 0.         0.         0.        ]------CONFUSION MATRIX for has_bill_color -------
+[[105   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [189   0   0   0   0   0   0   0   0   0   0   3   0   3   0]
+ [ 24   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  6   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 29   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [597   0   0   0   0   0   0   0   0   0   0   0   0   1   0]
+ [108   0   0   0   0   0   0   0   0   0   0   1   0   0   0]
+ [ 13   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  3   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 13   0   0   0   0   0   0   0   0   0   0   0   0   1   0]
+ [129   0   0   0   0   0   0   0   0   0   0   1   0   0   0]
+ [852   0   0   0   0   0   0   0   0   0   0   7   0   2   0]
+ [ 37   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 48   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [180   0   0   0   0   0   0   0   0   0   0   2   0   2   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_crown_color ----------
+The attributes are: 
+has_crown_color::bluehas_crown_color::brownhas_crown_color::iridescenthas_crown_color::purplehas_crown_color::rufoushas_crown_color::greyhas_crown_color::yellowhas_crown_color::olivehas_crown_color::greenhas_crown_color::pinkhas_crown_color::orangehas_crown_color::blackhas_crown_color::whitehas_crown_color::redhas_crown_color::buff
+Concept accuracy: 0.10271646859083192
+Precision: [0.09935484 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.5
+ 0.         0.         0.        ]
+Recalls:
+[0.98297872 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.01800327
+ 0.         0.         0.        ]
+F1- Score:
+[0.18046875 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.03475513
+ 0.         0.         0.        ]------CONFUSION MATRIX for has_crown_color -------
+[[231   0   0   0   0   0   0   1   0   0   0   3   0   0   0]
+ [417   0   0   0   0   0   0   2   0   0   0   1   0   0   0]
+ [ 31   0   0   0   0   0   0   1   0   0   0   0   0   0   0]
+ [ 10   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 41   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [417   0   0   0   0   0   0   0   0   0   0   5   0   0   0]
+ [146   0   0   0   0   0   0   1   0   0   0   0   0   0   0]
+ [ 33   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 13   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [ 12   0   0   0   0   0   0   0   0   0   0   2   0   0   0]
+ [ 30   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [599   0   0   0   0   0   0   1   0   0   0  11   0   0   0]
+ [148   0   0   0   0   0   0   0   1   0   0   0   0   0   0]
+ [ 88   0   0   0   0   0   0   1   0   0   0   0   0   0   0]
+ [109   0   0   0   0   0   0   1   0   0   0   0   0   0   0]]
+**********************************************
+
+-------PERFORMANCE MATRICES FOR: has_wing_pattern ----------
+The attributes are: 
+has_wing_pattern::solidhas_wing_pattern::spottedhas_wing_pattern::stripedhas_wing_pattern::multi-colored
+Concept accuracy: 0.3875212224108659
+Precision: [0.38752122 0.         0.         0.        ]
+Recalls:
+[1. 0. 0. 0.]
+F1- Score:
+[0.55858061 0.         0.         0.        ]------CONFUSION MATRIX for has_wing_pattern -------
+[[913   0   0   0]
+ [173   0   0   0]
+ [571   0   0   0]
+ [699   0   0   0]]
+**********************************************
